@@ -64,19 +64,19 @@ internal class Student
 
     public int Id { get; set; }
     public string FullName { get; set; }
-    public int Gender { get; set; }
+    public bool Gender { get; set; }
     public DateTime Dob { get; set; }
 
     //có thể không dùng contructer
-    public Student() { }
+    //public Student() { }
 
-    public Student(int id, string fullName, int gender, DateTime dob)
-    {
-        Id = id;
-        FullName = fullName;
-        Gender = gender;
-        Dob = dob;
-    }
+    //public Student(int id, string fullName, int gender, DateTime dob)
+    //{
+    //    Id = id;
+    //    FullName = fullName;
+    //    Gender = gender;
+    //    Dob = dob;
+    //}
 
     public override string ToString()
     {

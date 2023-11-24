@@ -6,7 +6,7 @@ using OPP;
 Student stu3 = new()
 {
     Id = 1,
-    //Gender = false,
+    Gender = false,
     FullName = "trọng",
     Dob = DateTime.Now
 };
