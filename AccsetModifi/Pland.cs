@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AccsetModifi;
-internal class Pland
+public class Pland
 {
     private void Private() => Console.WriteLine("private");
 
