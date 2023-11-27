@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AstracClass;
-internal class Teacher
-{
 
+//kế thừa sử dụng dấu :   
+internal class Teacher : Human
+{
+    public override void ShowInfo() => Console.WriteLine("this'is teacher");
+    
 }
