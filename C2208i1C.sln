@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPP", "OPP\OPP.csproj", "{EB7DBAA5-EA75-4856-81F3-A1192858C2A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OPP", "OPP\OPP.csproj", "{EB7DBAA5-EA75-4856-81F3-A1192858C2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Astraction", "Astraction", "{05550CC1-7B39-4E05-976F-24C877BD0C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstracClass", "AstracClass\AstracClass.csproj", "{D3B32F52-64BF-46C7-9ED0-22B134138314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EB7DBAA5-EA75-4856-81F3-A1192858C2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB7DBAA5-EA75-4856-81F3-A1192858C2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB7DBAA5-EA75-4856-81F3-A1192858C2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B32F52-64BF-46C7-9ED0-22B134138314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B32F52-64BF-46C7-9ED0-22B134138314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B32F52-64BF-46C7-9ED0-22B134138314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B32F52-64BF-46C7-9ED0-22B134138314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3B32F52-64BF-46C7-9ED0-22B134138314} = {05550CC1-7B39-4E05-976F-24C877BD0C05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15225C29-6764-4E26-BCF7-60B104FBF45D}
